@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap');
+
+
+
+* {
+    font-family: 'Sen', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sen', sans-serif;
+    color: #160041;
+    background-color: #f7f3fd;
+    width: 100%;
+}
+
+#countdown{
+    border: 2px dashed;
+padding: 10vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 15%;
+   margin-right: 15%;
+   width: 70%;
+   background-color: #fff;
+   text-align: center;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#countdown h1{
+ margin-right: 2%;
+ font-size: 25px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    background-image: url(./images/logo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: auto;
+    margin-block: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+ .contact{
+   margin-top: 50px;
+ }
+ .contact h1{
+    text-align: center;
+   
+ }
+ .contact a{
+    text-decoration: none;
+    color: #160041;
+ }
+
+   @media only screen and (max-width: 600px) {
+#countdown {
+      
+        padding: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+    #countdown h1{
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+    .heading h1{
+        font-size: 40px;
+    }
+   }
